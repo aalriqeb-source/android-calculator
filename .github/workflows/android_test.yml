@@ -18,9 +18,6 @@ jobs:
           java-version: '8'
           distribution: 'temurin'
 
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
-
       - name: Grant permission for gradlew
         run: chmod +x gradlew
 
